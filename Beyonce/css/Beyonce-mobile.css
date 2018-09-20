@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul > li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+a,
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: LucidaGrande-Bold;
+  src: url(../fonts/Lucida\ Grande\ Bold.ttf);
+}
+@font-face {
+  font-family: LucidaGrande;
+  src: url(../fonts/Lucida\ Grande.ttf);
+}
+header {
+  background: url(../Beyonce-images/Beyonce-mobile-img/banner.png) center center no-repeat;
+  background-size: cover;
+  width: 7.5rem;
+  height: 4.12rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+header img {
+  width: 6.62rem;
+  height: 1.12rem;
+}
+.content {
+  background-color: #FBC4D9;
+  padding: 0.8rem 0 0;
+}
+.content .winner {
+  text-align: center;
+}
+.content .winner .winner-top {
+  text-align: center;
+}
+.content .winner .winner-top h4 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.3rem;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.content .winner .winner-top img {
+  width: 4.3rem;
+  height: 0.4rem;
+  margin-top: -0.4rem;
+}
+.content .winner .winner-foot {
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  padding-top: 0.66rem;
+  width: 7.4rem;
+  height: 4.31rem;
+  background: #FFF7FA;
+  border: 0.06rem solid #000000;
+}
+.content .winner .winner-foot ul {
+  text-align: center;
+  display: inline-block;
+}
+.content .winner .winner-foot ul li {
+  float: left;
+  position: relative;
+}
+.content .winner .winner-foot ul li .numb1 {
+  width: 1.47rem;
+  height: 1.47rem;
+  position: absolute;
+  top: 0.45rem;
+  left: 0.3rem;
+  z-index: 0;
+}
+.content .winner .winner-foot ul li img {
+  width: 2.08rem;
+  height: 2.08rem;
+  position: relative;
+  z-index: 1;
+}
+.content .winner .winner-foot ul li .winner-info {
+  position: relative;
+}
+.content .winner .winner-foot ul li .winner-info h5 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.192rem;
+  color: #000000;
+}
+.content .winner .winner-foot ul li .winner-info p {
+  font-family: LucidaGrande;
+  font-size: 0.12rem;
+  color: #000000;
+}
+.content .winner .winner-foot ul li .winner-info p img {
+  width: 0.224rem;
+  height: 0.224rem;
+  margin-right: 0.1rem;
+  margin-bottom: 0.05rem;
+}
+.content .post {
+  text-align: center;
+  margin-top: 0.74rem;
+  position: relative;
+}
+.content .post .post-top {
+  text-align: center;
+}
+.content .post .post-top h4 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.3rem;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.content .post .post-top img {
+  width: 4.3rem;
+  height: 0.4rem;
+  margin-top: -0.4rem;
+}
+.content .post .post-picture {
+  padding-top: 0.37rem;
+}
+.content .post .post-picture img {
+  width: 5.05rem;
+  height: 8.73rem;
+}
+.content .post .post-picture .left-arrow,
+.content .post .post-picture .right-arrow {
+  width: 0.44rem;
+  height: 0.44rem;
+}
+.content .post .post-picture .left-arrow {
+  margin-right: 0.37rem;
+}
+.content .post .post-picture .right-arrow {
+  margin-left: 0.4rem;
+}
+.content .post .post-picture .out-container {
+  width: 7.5rem;
+  height: 8.73rem;
+  position: absolute;
+  top: 0;
+}
+.content .post .post-picture .out-container .swiper-button-prev {
+  background-image: url(../Beyonce-images/Beyonce-mobile-img/btn_left.png);
+}
+.content .post .post-picture .out-container .swiper-button-next {
+  background-image: url(../Beyonce-images/Beyonce-mobile-img/btn_right.png);
+}
+.content .post .post-picture .out-container .swiper_btn {
+  width: 0.44rem;
+  height: 0.44rem;
+  position: absolute;
+  top: 5.5rem;
+  outline: none;
+}
+.content .post .post-picture .in-container {
+  width: 4.65rem;
+  height: 8.3rem;
+  position: absolute;
+  top: 1.15rem;
+  left: 1.31rem;
+  overflow: hidden;
+}
+.content .post .post-picture .in-container .swiper-slide {
+  border-radius: 0.1rem;
+}
+.content .post .post-picture .in-container .swiper-slide img {
+  width: 4.65rem;
+  height: 8.3rem;
+  border-radius: 0.1rem;
+}
+.content .tickets .tick-top {
+  text-align: center;
+  margin-top: 0.8rem;
+}
+.content .tickets .tick-top h4 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.3rem;
+  color: #000000;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.content .tickets .tick-top img {
+  width: 4.3rem;
+  height: 0.4rem;
+  margin-top: -0.4rem;
+}
+.content .tickets .tick-info {
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  padding: 0.24rem;
+  width: 7.02rem;
+  height: 1.85rem;
+  background-color: #fff;
+  border: 0.02rem solid #000000;
+}
+.content .tickets .tick-info p {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.22rem;
+  color: #000000;
+  text-align: left;
+}
+.content .content-link {
+  background-color: #fff;
+  width: 100%;
+  height: 1.41rem;
+  margin-top: 1rem;
+}
+.content .content-link .logo {
+  float: left;
+  margin-left: 0.3rem;
+  margin-top: 0.55rem;
+}
+.content .content-link .logo a {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.2rem;
+  color: #000;
+}
+.content .content-link .download {
+  float: left;
+  margin-top: 0.55rem;
+  margin-left: 1.9rem;
+  margin-right: 0.4rem;
+}
+.content .content-link .download .title > h4 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.12rem;
+  color: #000;
+}
+.content .content-link .download .app-info {
+  margin-top: 0.08rem;
+}
+.content .content-link .download .app-info a > img {
+  width: 0.28rem;
+  height: 0.28rem;
+}
+.content .content-link .further {
+  float: left;
+  margin-top: 0.55rem;
+}
+.content .content-link .further .title > h4 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.12rem;
+  margin-bottom: 0.08rem;
+  color: #000;
+}
+.content .content-link .further .fur-info a > img {
+  width: 0.28rem;
+  height: 0.28rem;
+  margin-right: 0.24rem;
+}
+.content .content-foot {
+  text-align: center;
+}
+.content .content-foot span,
+.content .content-foot a {
+  font-family: ArialNarrow;
+  font-size: 0.2rem;
+  color: #FFFFFF;
+}
+.mod-policy h2,
+.mod-policy h3,
+.mod-policy h4,
+.mod-policy p {
+  margin-bottom: 0.5rem;
+}
+.mod-policy .policy-title {
+  text-align: center;
+}
+.mod-policy .policy-title h2 {
+  font-size: 0.35rem;
+  font-weight: 700;
+}
+.mod-policy .policy-body h3 {
+  font-size: 0.23rem;
+  font-weight: 700;
+}
+.mod-policy .policy-body h4 {
+  font-size: 0.25rem;
+  font-weight: 700;
+}
+.mod-policy .policy-body p {
+  font-size: 0.19rem;
+}

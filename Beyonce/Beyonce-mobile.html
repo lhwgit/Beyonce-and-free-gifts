@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        //判断移动端还是pc端
+        if (!(/Android|webOS|iPhone|iPad|BlackBerry/i.test(navigator.userAgent))) {
+            window.location.href = "Beyonce.html";
+        }
+        getRem(750, 100)
+        window.onresize = function () {
+            getRem(750, 100)
+        };
+        //用来设置html的font-size
+        function getRem(pwidth, prem) {
+            //获取html元素
+            var html = document.getElementsByTagName("html")[0];
+            //获取视窗宽度
+            //下面的代码是为了考虑兼容性
+            //在IE7、IE8、Firefox中，document.body.clientWidth以及 document.body.clientHeightzhi值为0，此时，可以使用 document.documentElement.clientHeight等代替。
+            var oWidth = document.documentElement.clientWidth || document.body.clientWidth;
+            html.style.fontSize = oWidth / pwidth * prem + "px";
+        }
+    </script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/dialog.css">
+    <link rel="stylesheet" href="./css/Beyonce-mobile.css">
+</head>
+
+<body>
+    <header>
+        <img src="./Beyonce-images/Beyonce-mobile-img/timeline2.png" alt="">
+    </header>
+    <div class="content">
+        <div class="winner">
+            <div class="winner-top">
+                <h4>The winners</h4>
+                <img src="./Beyonce-images/Beyonce-mobile-img/title_bg.png" alt="">
+            </div>
+            <div class="winner-foot">
+                <ul class="clearfix">
+                    <li>
+                        <img src="./Beyonce-images/Beyonce-mobile-img/no1.png" alt="">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/phone_avatar_no1.png" alt="" class="numb1" style="left: 0.3rem;">
+                        <div class="winner-info">
+                            <h5>_Elizabeth4</h5>
+                            <p style="margin: 0.06rem 0">
+                                <img src="./Beyonce-images/Beyonce-mobile-img/icon_like.png" alt="" class="like">likes: 110</p>
+                            <p>
+                                <img src="./Beyonce-images/Beyonce-mobile-img/icon_present.png" alt="" class="present">2 Near Stage Tickets</p>
+                        </div>
+                    </li>
+                    <li style="margin: 0 0.2rem;">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/no2.png" alt="">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/phone_avatar_no3.png" alt="" class="numb1" style="left: 0.32rem;">
+                        <div class="winner-info">
+                            <h5>Lady Lyon</h5>
+                            <p style="margin: 0.06rem 0">
+                                <img src="./Beyonce-images/Beyonce-mobile-img/icon_like.png" alt="" class="like">likes: 101</p>
+                            <p>
+                                <img src="./Beyonce-images/Beyonce-mobile-img/icon_present.png" alt="" class="present">2 Regular Tickets</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./Beyonce-images/Beyonce-mobile-img/no3.png" alt="">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/phone_avatar_no2.png" alt="" class="numb1">
+                        <div class="winner-info">
+                            <h5>jailenev</h5>
+                            <p style="margin: 0.06rem 0">
+                                <img src="./Beyonce-images/Beyonce-mobile-img/icon_like.png" alt="" class="like">likes: 97</p>
+                            <p>
+                                <img src="./Beyonce-images/Beyonce-mobile-img/icon_present.png" alt="" class="present">2 Regular Tickets</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-top">
+                <h4>The winning post</h4>
+                <img src="./Beyonce-images/Beyonce-mobile-img/title_bg.png" alt="">
+            </div>
+            <div class="post-picture">
+                <img src="./Beyonce-images/Beyonce-mobile-img/post_bg.png" alt="">
+                <!-- 轮播图 -->
+                <div class="out-container">
+                    <div class="in-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./Beyonce-images/Beyonce-mobile-img/phone_post_no1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./Beyonce-images/Beyonce-mobile-img/phone_post_no2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./Beyonce-images/Beyonce-mobile-img/phone_post_no3.png" alt="">
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-button-prev swiper_btn"></div> -->
+                        <!--左箭头-->
+                        <!-- <div class="swiper-button-next swiper_btn"></div> -->
+                        <!--右箭头-->
+                    </div>
+                    <div class="swiper-button-prev swiper_btn"></div>
+                    <!--左箭头-->
+                    <div class="swiper-button-next swiper_btn"></div>
+                    <!--右箭头-->
+                </div>
+                <!-- 轮播图结束 -->
+            </div>
+        </div>
+        <div class="tickets">
+            <div class="tick-top">
+                <h4>Delivery of tickets</h4>
+                <img src="./Beyonce-images/Beyonce-mobile-img/title_bg.png" alt="">
+            </div>
+            <div class="tick-info">
+                <p>We will send confrim email to the winners, please check the mail.
+                    <br> If the information is confirmed correctly, the ticket will be sent by email.</p>
+            </div>
+        </div>
+        <div class="tickets">
+            <div class="tick-top">
+                <h4>Activity rules</h4>
+                <img src="./Beyonce-images/Beyonce-mobile-img/title_bg.png" alt="">
+            </div>
+            <div class="tick-info">
+                <p>1.Download and register Fabloox app
+                    <br> 2.Post photo or video that you mimic Beyonce's makeup in our App
+                    <br> 3.Post Title need to contain keywords: Beyonce
+                    <br>
+                </p>
+            </div>
+        </div>
+        <div class="content-link">
+            <div class="logo">
+                <a href="http://fabloox.com/">fabloox.com</a>
+            </div>
+            <div class="download">
+                <div class="title">
+                    <h4>APP DOWNLOAD</h4>
+                </div>
+                <div class="app-info">
+                    <a href="https://itunes.apple.com/cn/app/fabloox/id1354875964?mt=8&ign-mpt=uo%3D4" target="_blank">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/btm_btn_apple.png" alt="" style="margin-right: .24rem;">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.adc.fabloox" target="_blank">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/btm_btn_android.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="further">
+                <div class="title">
+                    <h4>FOLLOW US</h4>
+                </div>
+                <div class="fur-info">
+                    <a href="https://twitter.com/fablooxapp/" target="_blank">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/btm_btn_twitter.png" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/Fablooxapp/" target="_blank">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/btm_btn_fb.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/fablooxapp/" target="_blank">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/btm_btn_ins.png" alt="">
+                    </a>
+                    <a href="https://www.pinterest.com/fabloobeauty/pins/" target="_blank">
+                        <img src="./Beyonce-images/Beyonce-mobile-img/bottom_btn_pinterest.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="content-foot">
+            <span>@ COPYRIGHT 2018 | ALL RIGHTS RESERVED. |</span>
+            <a href="javascript:;" id="btn-02" style="color: #fff; background-color: #FBC4D9; border: none;">PRIVACY POLICY</a>
+            <!-- <span id="btn-02" style="color: #fff; background-color: #FBC4D9; border: none;">PRIVACY POLICY</span> -->
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+            var mySwiper = new Swiper('.in-container', {
+                autoplay: true,
+                loop: true,
+                autoplay: true,//可选选项，自动滑动
+                autoplay: {
+                    disableOnInteraction: false
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                }
+            })
+        }
+    </script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/dialog.js"></script>
+    <!-- <script src="./js/zepto.min.js"></script> -->
+    <script src="./js/beyonce.js"></script>
+</body>
+
+</html>

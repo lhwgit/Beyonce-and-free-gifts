@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul>li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+a,a:link,a:hover,a:visited{
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+@font-face {
+    font-family: SFUIText-HeavyItalic;
+    src: url(../fonts/SFUIText-HeavyItalic.ttf);
+  }
+@font-face {
+  font-family: SFUIText-SemiboldItalic;
+  src: url(../fonts/SFUIText-SemiboldItalic.ttf);
+}
+
+@font-face {
+    font-family: LucidaGrande-Bold;
+    src: url(../fonts/Lucida\ Grande\ Bold.ttf);
+  }
+@font-face {
+  font-family: SFUIText-SemiboldItalic;
+  src: url(../fonts/SFUIText-SemiboldItalic.ttf);
+}
+@font-face {
+    font-family: LucidaGrande;
+    src: url(../fonts/Lucida\ Grande.ttf);
+}
+@font-face {
+  font-family: ArialNarrow;
+  src: url(../fonts/arial\ narrow.ttf);
+}
+header{
+    width: 1920/100rem;
+    height: 910/100rem;
+    background:url(../Beyonce-images/banner.png) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    h2{
+        font-size: 60/100rem;
+        color: #000;
+        padding-top: 47/100rem;
+        padding-left: 67/100rem;
+        font-family: SFUIText-HeavyItalic;
+    }
+    h3{
+        font-size: 40/100rem;
+        color:#000;
+        margin-top: 130/100rem;
+        margin-left: 62/100rem;
+        font-family: SFUIText-SemiboldItalic;
+    }
+    h4{
+        font-size: 140/100rem;
+        margin-top: 3/100rem;
+        margin-left: 67/100rem;
+        color:#000;
+        font-family: SFUIText-HeavyItalic;
+    }
+    .time-line{
+        position: absolute;
+        top: 765/100rem;
+        left: 100/100rem;
+        width: 1720/100rem;
+        height: 294/100rem;
+        padding-top: 72/100rem;
+        text-align: center;
+        background-color: #FFF7FA;
+        z-index: 1;
+        .time-top .time-foot{
+            text-align: center;
+        }
+        ul{
+            display: inline-block;
+            li{
+                float:left;
+                font-family: LucidaGrande-Bold;
+                font-size: 24/100rem;
+                color: #030303;
+            }
+        }
+        .time-img{
+            padding-bottom: 29/100rem;
+            img{
+                width: 1088/100rem;
+                height: 25/100rem;
+            }
+        }
+    }
+}
+.content{
+    background-color: #FBC4D9;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 3.05rem;
+    .content-winner{
+        text-align: center;
+        h4{
+            font-family: LucidaGrande-Bold;
+            font-size: 48/100rem;
+            color: #000000;
+            position: relative;
+            z-index: 1;
+        }
+        img{
+            width: 542/100rem;
+            height: 60/100rem;
+            margin-top: -30/100rem;
+        }
+        .winner-head{
+            margin:0 auto;
+            width: 1824/100rem;
+            height: 660/100rem;
+            background-color: #fff;
+            margin-top: 150/100rem;
+            padding-top:100/100rem;
+            border:  6/100rem solid #000000;
+            ul{
+                text-align: center;
+                display: inline-block;
+                li{
+                    text-align: center;
+                    float: left;
+                    position: relative;
+                    img{
+                        width: 342/100rem;
+                        height: 342/100rem;
+                        position: relative;
+                        z-index: 1;
+                    }
+                    .numb1{
+                        width: 240/100rem;
+                        height: 240/100rem;
+                        position: absolute;
+                        top: 75/100rem;
+                        left: 50/100rem;
+                        z-index: 0;
+                    }
+                    .winner-info{
+                        position: relative;
+                        h5{
+                            font-family: LucidaGrande-Bold;
+                            font-size: 30/100rem;
+                            color: #000000;
+                            margin-top: 32/100rem;
+                            margin-bottom: 16/100rem;
+                        }
+                        p{
+                            font-family: LucidaGrande;
+                            font-size: 30/100rem;
+                            color: #000000;
+                            // padding-left: 50/100rem;
+                        }
+                        img{
+                            position:absolute;
+                            width: 37/100rem;
+                            height: 35/100rem;
+                        }
+                        .like{
+                            left: 30/100rem;
+                            top: 85/100rem;
+                        }
+                        .present{
+                            left: 30/100rem;
+                            top: 135/100rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content-post{
+        width: 100%;
+        text-align: center;
+        padding-top: 160/100rem;
+        .post-head{
+            position: relative;
+            h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 48/100rem;
+                color: #000000;
+                position: relative;
+                z-index: 1;
+            }
+            .title{
+                width: 542/100rem;
+                height: 60/100rem;
+                margin-top: -30/100rem;
+            }
+            .line-one{
+                position: absolute;
+                width: 148/100rem;
+                height: 372/100rem;
+                left: 225/100rem;
+                top: -130/100rem;
+            }
+            .line-three{
+                position: absolute;
+                width: 47/100rem;
+                height: 276/100rem;
+                right: 316/100rem;
+                top: -130/100rem;
+            }
+        }
+        .post-details{
+            margin: 88.4/100rem auto 0;
+            width: 1697/100rem;
+            height: 1056/100rem;
+            position: relative;
+            img{
+                width: 590/100rem;
+                height: 1011/100rem;
+                position: absolute;
+            }
+            .one{
+                left: 0;
+                top: 88/100rem;
+            }
+            .two{
+                left: 610/100rem;
+                top: 230/100rem;
+            }
+            .three{
+                right:0;
+                top: 0;
+                z-index: 2;
+            }
+            .one-h{
+                width: 541/100rem;
+                height: 970/100rem;
+                top: 90/100rem;
+                left: 11/100rem;
+            }
+            .two-h{
+                width: 541/100rem;
+                height: 970/100rem;
+                top: 240/100rem;
+                left: 620/100rem;
+            }
+            .three-h{
+                width: 541/100rem;
+                height: 970/100rem;
+                right:38/100rem;
+                top: 5/100rem;
+                z-index: 1;
+            }
+            .arrow{
+                width: 219/100rem;
+                height: 219/100rem;
+                top: -80/100rem;
+                left: 727/100rem;
+            }
+        }
+    }
+    .content-tickets{
+        text-align: center;
+        padding-top: 160/100rem;
+        h4{
+            font-family: LucidaGrande-Bold;
+            font-size: 48/100rem;
+            color: #000000;
+            position: relative;
+            z-index: 1;
+        }
+        img{
+            width: 542/100rem;
+            height: 60/100rem;
+            margin-top: -30/100rem;
+        }
+        .tickets-info{
+            margin:0 auto;
+            margin-top: 80/100rem;
+            padding: 60/100rem 51/100rem;
+            background-color: #fff;
+            width: 1608/100rem;
+            height: 372/100rem;
+            border: 6/100rem solid #000000; 
+            p{
+                font-family: LucidaGrande-Bold;
+                font-size: 48/100rem;
+                color: #000000;
+                text-align: left;
+                line-height: 63/100rem;
+            }
+        }
+    }
+    .content-link{
+        width: 100%;
+        height: 319/100rem;
+        margin-top: 160/100rem;
+        background-color: #fff;
+        .logo{
+            float:left;
+            margin-left: 140/100rem;
+            margin-top: 130/100rem;
+            a{
+                font-family: LucidaGrande-Bold;
+                font-size: 50/100rem;
+                color: #000;
+            }
+        }
+        .download{
+            float: left;
+            margin-top: 144/100rem;
+            margin-left: 497/100rem;
+            margin-right: 100/100rem;
+            .title>h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 30/100rem;
+                color: #000;
+            }
+            .app-info{
+                margin-top: 24/100rem;
+                a>img{
+                    width: 70/100rem;
+                    height: 70/100rem;
+                }
+            }
+        }
+        .further{
+            float: left;
+            margin-top: 142/100rem;
+            .title>h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 30/100rem;
+                margin-bottom: 24/100rem;
+                color: #000;
+            }
+            .fur-info{
+                a>img{
+                    width: 70/100rem;
+                    height: 70/100rem;
+                    margin-right:60/100rem;
+                }
+            }
+        }
+    }
+    .content-foot{
+        text-align: center;
+        span{
+            font-family: ArialNarrow;
+            font-size: 20/100rem;
+            color: #FFFFFF; 
+        }
+    }
+}

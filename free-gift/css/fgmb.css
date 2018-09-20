@@ -1,0 +1,263 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul > li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+a,
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+@font-face {
+  font-family: LucidaGrande-Bold;
+  src: url(../fonts/Lucida\ Grande\ Bold.ttf);
+}
+@font-face {
+  font-family: SFUIText-Regular;
+  src: url(../fonts/SF-UI-Text-Regular.otf);
+}
+@font-face {
+  font-family: LucidaGrande;
+  src: url(../fonts/Lucida\ Grande.ttf);
+}
+@font-face {
+  font-family: ArialNarrow;
+  src: url(../fonts/arial\ narrow.ttf);
+}
+header {
+  background-color: #FFC5DB;
+  width: 100%;
+  padding-top: 0.24rem;
+  padding-bottom: 0.24rem;
+}
+header .left {
+  float: left;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 0.32rem;
+  margin-left: 0.24rem;
+  width: 4.72rem;
+}
+header .left h1 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.3rem;
+  color: #030303;
+}
+header .left p {
+  font-family: SFUIText-Regular;
+  font-size: 0.16rem;
+  color: #030303;
+  line-height: 0.3rem;
+  text-align: left;
+  padding: 0.3rem;
+}
+header .right {
+  float: left;
+  margin-top: 0.62rem;
+}
+header .right img {
+  width: 2.53rem;
+  height: 2.53rem;
+}
+.video-content {
+  width: 7.02rem;
+  margin: 0 auto;
+  margin-top: 0.16rem;
+  padding-bottom: 0.16rem;
+  padding-top: 0.16rem;
+  background-color: #FFEBF3;
+  text-align: center;
+}
+.video-content h2 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.24rem;
+  margin-bottom: 0.16rem;
+  color: #000000;
+}
+.video-content p {
+  font-family: SFUIText-Regular;
+  font-size: 0.18rem;
+  color: #030303;
+  line-height: 0.26rem;
+  text-align: left;
+  padding: 0 0.24rem;
+}
+.product .p-title {
+  margin-top: 0.8rem;
+}
+.product .p-title img {
+  float: left;
+  width: 1.56rem;
+  height: 0.04rem;
+}
+.product .p-title .one {
+  margin-left: 1.27rem;
+}
+.product .p-title .one,
+.product .p-title .two {
+  margin-top: 0.15rem;
+}
+.product .p-title h3 {
+  float: left;
+  font-family: LucidaGrande-Bold;
+  font-size: 0.24rem;
+  margin: 0 0.32rem;
+  color: #030303;
+}
+.product .products-list {
+  margin-top: 0.4rem;
+  box-sizing: border-box;
+  padding-left: 0.56rem;
+  padding-right: 0.49rem;
+}
+.product .products-list ul li {
+  float: left;
+  text-align: center;
+  width: 1.62rem;
+  margin-bottom: 0.44rem;
+}
+.product .products-list ul li a img {
+  width: 1.47rem;
+  height: 1.47rem;
+}
+.product .products-list ul li a h1 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.18rem;
+  margin: 0.08rem 0;
+  color: #030303;
+}
+.product .products-list ul li a h2 {
+  font-family: LucidaGrande;
+  font-size: 0.16rem;
+  margin-bottom: 0.08rem;
+  color: #030303;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+.product .products-list ul li a h3 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.14rem;
+  color: #F78AB4;
+}
+.product .products-list ul li:nth-of-type(3n) {
+  float: right;
+}
+.content-link {
+  background-color: #FFC5DB;
+  width: 100%;
+  padding-top: 0.16rem;
+}
+.content-link .in-foot {
+  background-color: #fff;
+  padding-bottom: 0.23rem;
+}
+.content-link .in-foot .logo {
+  float: left;
+  margin-left: 0.38rem;
+  margin-top: 0.54rem;
+  font-size: 0;
+}
+.content-link .in-foot .logo a {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.2rem;
+  color: #000000;
+}
+.content-link .in-foot .download {
+  float: left;
+  margin-top: 0.6rem;
+  margin-left: 1.9rem;
+  margin-right: 0.36rem;
+}
+.content-link .in-foot .download .title > h4 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.12rem;
+  color: #000;
+}
+.content-link .in-foot .download .app-info {
+  margin-top: 0.08rem;
+  font-size: 0;
+}
+.content-link .in-foot .download .app-info a > img {
+  width: 0.28rem;
+  height: 0.28rem;
+  font-size: 0;
+}
+.content-link .in-foot .further {
+  float: left;
+  margin-top: 0.6rem;
+}
+.content-link .in-foot .further .title > h4 {
+  font-family: LucidaGrande-Bold;
+  font-size: 0.12rem;
+  margin-bottom: 0.08rem;
+  color: #000;
+}
+.content-link .in-foot .further .fur-info {
+  font-size: 0;
+}
+.content-link .in-foot .further .fur-info a > img {
+  width: 0.28rem;
+  height: 0.28rem;
+  margin-right: 0.24rem;
+  font-size: 0;
+}
+.content-foot {
+  width: 100%;
+  background-color: #FFC5DB;
+  text-align: center;
+  font-size: 0;
+}
+.content-foot span,
+.content-foot a {
+  font-family: LucidaGrande;
+  font-size: 0.2rem;
+  color: #FFFFFF;
+}
+.mod-policy h2,
+.mod-policy h3,
+.mod-policy h4,
+.mod-policy p {
+  margin-bottom: 0.5rem;
+}
+.mod-policy .policy-title {
+  text-align: center;
+}
+.mod-policy .policy-title h2 {
+  font-size: 0.35rem;
+  font-weight: 700;
+}
+.mod-policy .policy-body h3 {
+  font-size: 0.23rem;
+  font-weight: 700;
+}
+.mod-policy .policy-body h4 {
+  font-size: 0.25rem;
+  font-weight: 700;
+}
+.mod-policy .policy-body p {
+  font-size: 0.19rem;
+}

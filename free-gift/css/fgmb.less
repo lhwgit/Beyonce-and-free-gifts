@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul>li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+a,a:link,a:hover,a:visited{
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+@font-face {
+    font-family: LucidaGrande-Bold;
+    src: url(../fonts/Lucida\ Grande\ Bold.ttf);
+  }
+  @font-face {
+    font-family: SFUIText-Regular;
+    src: url(../fonts/SF-UI-Text-Regular.otf);
+  }
+  @font-face {
+    font-family: LucidaGrande;
+    src: url(../fonts/Lucida\ Grande.ttf);
+  }
+  @font-face {
+    font-family: ArialNarrow;
+    src: url(../fonts/arial\ narrow.ttf);
+  }
+header{
+    background-color: #FFC5DB;
+    width: 100%;
+    padding-top:24/100rem;
+    padding-bottom: 24/100rem;
+    .left{
+        float: left;
+        text-align: center;
+        background-color: #fff;
+        padding-top: 32/100rem;
+        margin-left: 24/100rem;
+        width: 472/100rem;
+        h1{
+            font-family: LucidaGrande-Bold;
+            font-size: 30/100rem;
+            color: #030303;
+        }
+        p{
+            font-family: SFUIText-Regular;
+            font-size: 16/100rem;
+            color: #030303;
+            line-height: 30/100rem;
+            text-align: left;
+            padding: 30/100rem;
+        }
+    }
+    .right{
+        float: left;
+        margin-top:62/100rem;
+        img{
+            width: 253/100rem;
+            height: 253/100rem;
+        }
+    }
+}
+.video-content{
+    width: 702/100rem;
+    margin: 0 auto;
+    margin-top: 16/100rem;
+    padding-bottom: 16/100rem;
+    padding-top: 16/100rem;
+    background-color: #FFEBF3;
+    text-align: center;
+    h2{
+        font-family: LucidaGrande-Bold;
+        font-size: 24/100rem;
+        margin-bottom: 16/100rem;
+        color: #000000;
+    }
+    p{
+        font-family: SFUIText-Regular;
+        font-size: 18/100rem;
+        color: #030303;
+        line-height: 26/100rem;
+        text-align: left;
+        padding: 0 24/100rem;
+    }
+}
+.product{
+    .p-title{
+        margin-top: 80/100rem;
+        img{
+            float: left;
+            width: 156/100rem;
+            height: 4/100rem;
+        }
+        .one{
+            margin-left: 127/100rem;
+        }
+        .one,.two{
+            margin-top: 15/100rem;
+        }
+        h3{
+            float: left;
+            font-family: LucidaGrande-Bold;
+            font-size: 24/100rem;
+            margin: 0 32/100rem;
+            color: #030303;
+        }
+    }
+    .products-list{
+        margin-top: 40/100rem;
+        box-sizing: border-box;
+        padding-left: 56/100rem;
+        padding-right: 49/100rem;
+        ul{
+            li{
+                float: left;
+                text-align: center;
+                width: 162/100rem;
+                margin-bottom: 44/100rem;
+                a{
+                    img{
+                        width: 147/100rem;
+                        height: 147/100rem;
+                    }
+                    h1{
+                        font-family: LucidaGrande-Bold;
+                        font-size: 18/100rem;
+                        margin: 8/100rem 0;
+                        color: #030303;
+                    }
+                    h2{
+                        font-family: LucidaGrande;
+                        font-size: 16/100rem;
+                        margin-bottom: 8/100rem;
+                        color: #030303;
+                        white-space:nowrap;
+                        text-overflow: ellipsis;
+                        -o-text-overflow:ellipsis; 
+                        overflow: hidden;
+                    }
+                    h3{
+                        font-family: LucidaGrande-Bold;
+                        font-size: 14/100rem;
+                        color: #F78AB4;
+                    }
+                }
+            }
+            li:nth-of-type(3n){
+                float: right;
+            }
+        }
+    }
+}
+.content-link{
+    background-color: #FFC5DB;
+    width: 100%;
+    padding-top: 16/100rem;
+    .in-foot{
+        background-color: #fff;
+        padding-bottom: 23/100rem;
+        .logo{
+            float:left;
+            margin-left: 38/100rem;
+            margin-top: 54/100rem;
+            font-size: 0;
+            a{
+                font-family: LucidaGrande-Bold;
+                font-size: 20/100rem;
+                color: #000000;
+            }
+        }
+        .download{
+            float: left;
+            margin-top: 60/100rem;
+            margin-left: 190/100rem;
+            margin-right: 36/100rem;
+            .title>h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 12/100rem;
+                color: #000;
+            }
+            .app-info{
+                margin-top: 8/100rem;
+                font-size: 0;
+                a>img{
+                    width: 28/100rem;
+                    height: 28/100rem;
+                    font-size: 0;
+                }
+            }
+        }
+        .further{
+            float: left;
+            margin-top: 60/100rem;
+            .title>h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 12/100rem;
+                margin-bottom: 8/100rem;
+                color: #000;
+            }
+            .fur-info{
+                font-size: 0;
+                a>img{
+                    width: 28/100rem;
+                    height: 28/100rem;
+                    margin-right:24/100rem;
+                    font-size: 0;
+                }
+            }
+        }
+    }
+    
+}
+.content-foot{
+    width: 100%;
+    background-color: #FFC5DB;
+    text-align: center;
+    font-size: 0;
+    span,a{
+        font-family: LucidaGrande;
+        font-size: 20/100rem;
+        color: #FFFFFF; 
+    }
+}
+.mod-policy{
+    h2,h3,h4,p{
+        margin-bottom: 50/100rem;
+    }
+    .policy-title{
+        text-align:center;
+        h2{
+            font-size: 35/100rem;
+            font-weight: 700;
+        }
+    }
+    .policy-body{
+        h3{
+            font-size: 23/100rem;
+            font-weight: 700;
+        }
+        h4{
+            font-size: 25/100rem;
+            font-weight: 700;
+        }
+        p{
+            font-size: 19/100rem;
+        }
+    }
+}

@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul>li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+a,a:link,a:hover,a:visited{
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+@font-face {
+    font-family: LucidaGrande-Bold;
+    src: url(../fonts/Lucida\ Grande\ Bold.ttf);
+  }
+  @font-face {
+    font-family: SFUIText-Regular;
+    src: url(../fonts/SF-UI-Text-Regular.otf);
+  }
+  @font-face {
+    font-family: LucidaGrande;
+    src: url(../fonts/Lucida\ Grande.ttf);
+  }
+  @font-face {
+    font-family: ArialNarrow;
+    src: url(../fonts/arial\ narrow.ttf);
+  }
+header{
+    width: 100%;
+    background-color: #FFC5DB;
+    padding: 80/100rem 50/100rem 50/100rem 80/100rem;
+    .left{
+        float:left;
+        width: 566/100rem;
+        background-color: #fff;
+        text-align:center;
+        padding-top: 60/100rem;
+        padding-bottom: 60/100rem;
+        h1{
+            font-family: LucidaGrande-Bold;
+            font-size: 40/100rem;
+            margin-bottom: 24/100rem;
+            color: #030303;
+        }
+        h2{
+            font-family: LucidaGrande-Bold;
+            font-size: 40/100rem;
+            margin-bottom: 64/100rem;
+            color: #030303;
+        }
+        p{
+            font-family: SFUIText-Regular;
+            font-size: 18/100rem;
+            color: #030303;
+            text-align: left;
+            padding-left: 78/100rem;
+            padding-right: 78/100rem;
+        }
+    }
+    .right{
+        float:right;
+        text-align: center;
+        img{
+            width:428/100rem;
+            height: 428/100rem;
+        }
+        h3{
+            font-family: LucidaGrande-Bold;
+            font-size: 26/100rem;
+            margin: 25/100rem 0;
+            margin-bottom: 15/100rem;
+            color: #FFFFFF;
+        }
+        p{
+            width: 532/100rem;
+            font-family: SFUIText-Regular;
+            font-size: 18/100rem;
+            color: #FFFFFF;
+            line-height: 26/100rem;
+            text-align: left;
+        }
+    }
+}
+.content{
+    background-color: #FFC5DB;
+    width: 1280/100rem;
+    margin: 0 auto;
+    .product{
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 80/100rem 50/100rem;
+        width: 1280/100rem;
+        font-size: 0;
+        .product-title{
+            img{
+                float:left;
+                width: 156/100rem;
+                height: 4/100rem;
+            }
+            .one{
+                margin-left: 360/100rem;
+                margin-top: 10/100rem;
+            }
+            .two{
+                margin-top: 10/100rem;
+            }
+            h5{
+                float:left;
+                font-family: LucidaGrande-Bold;
+                font-size: 24/100rem;
+                padding: 0 32/100rem;
+                color: #030303;
+            }
+        }
+        .products-list{
+            text-align: center;
+            margin-top: 40/100rem;
+            padding-left: 50/100rem;
+            ul{
+                margin: 0;
+                li{
+                    float: left;
+                    text-align: center;
+                    margin-right: 72/100rem;
+                    margin-bottom: 80/100rem;
+                    width: 148/100rem;
+                    a{
+                        img{
+                            width: 148/100rem;
+                            height: 148/100rem;
+                        }
+                        h1{
+                            font-family: LucidaGrande-Bold;
+                            font-size: 14/100rem;
+                            color: #030303;
+                            margin-top: 3/100rem;
+                        }
+                        h2{
+                            font-family: LucidaGrande;
+                            font-size: 12/100rem;
+                            margin: 8/100rem 0;
+                            color: #030303;
+                            white-space:nowrap;
+                            text-overflow: ellipsis;
+                            -o-text-overflow:ellipsis; 
+                            overflow: hidden;
+                        }
+                        h3{
+                            font-family: LucidaGrande-Bold;
+                            font-size: 14/100rem;
+                            color: #F78AB4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        margin: 0 auto;
+        margin-top: 26/100rem;
+        background-color: #fff;
+        width: 1280/100rem;
+        height: 196/100rem;
+        .logo{
+            float: left;
+            margin-left: 96/100rem;
+            margin-top: 66/100rem;
+            font-size: 0;
+            a{
+                font-family: LucidaGrande-Bold;
+                font-size: 32/100rem;
+                color: #000000;
+            }
+        }
+        .download{
+            float: left;
+            margin-top: 74/100rem;
+            margin-left: 328/100rem;
+            margin-right: 66/100rem;
+            .title>h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 20/100rem;
+                color: #000;
+            }
+            .app-info{
+                margin-top: 16/100rem;
+                font-size: 0;
+                a{
+                    img{
+                        width: 48/100rem;
+                        height: 48/100rem;
+                    }
+                }
+            }
+        }
+        .further{
+            float: left;
+            margin-top: 74/100rem;
+            .title>h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 20/100rem;
+                color: #000000;
+                margin-bottom: 16/100rem;
+            }
+            .fur-info{
+                font-size: 0;
+                a{
+                    img{
+                        width: 48/100rem;
+                        height: 48/100rem;
+                        margin-right:40/100rem;
+                    }
+                }
+            }
+        }
+    }
+    .content-foot{
+        text-align: center;
+        width: 1280/100rem;
+        height: 26/100rem;
+        font-size: 0;
+        span{
+            padding: 0;
+            margin: 0;
+            font-family: ArialNarrow;
+            font-size: 14/100rem;
+            color: #FFFFFF; 
+            line-height: 26/100rem;
+        }
+    }
+}

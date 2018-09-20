@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul>li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+a,a:link,a:hover,a:visited{
+    text-decoration: none;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: LucidaGrande-Bold;
+    src: url(../fonts/Lucida\ Grande\ Bold.ttf);
+}
+@font-face {
+    font-family: LucidaGrande;
+    src: url(../fonts/Lucida\ Grande.ttf);
+}
+header{
+    background: url(../Beyonce-images/Beyonce-mobile-img/banner.png) center center no-repeat;
+    background-size: cover;
+    width: 750/100rem;
+    height: 412/100rem;
+    padding-top: 300/100rem;
+    text-align: center;
+    img{
+        width: 662/100rem;
+        height: 112/100rem;
+    }
+}
+
+.content{
+    background-color: #FBC4D9;
+    padding: 80/100rem 0 0;
+    .winner{
+        text-align:center;
+        .winner-top{
+            text-align: center;
+            h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 30/100rem;
+                color: #000000;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+            }
+            img{
+                width: 430/100rem;
+                height: 40/100rem;
+                margin-top: -40/100rem;
+            }
+        }
+        .winner-foot{
+            margin: 0 auto;
+            margin-top: 40/100rem;
+            padding-top: 66/100rem;
+            width:740/100rem;
+            height: 431/100rem;
+            background: #FFF7FA;
+            border: 6/100rem solid #000000;
+            ul{
+                text-align: center;
+                display: inline-block;
+                li{
+                    float: left;
+                    position: relative;
+                    .numb1{
+                        width: 147/100rem;
+                        height: 147/100rem;
+                        position: absolute;
+                        top: 45/100rem;
+                        left: 30/100rem;
+                        z-index: 0;
+                    }
+                    img{
+                        width: 208/100rem;
+                        height: 208/100rem;
+                        position: relative;
+                        z-index: 1;
+                    }
+                    .winner-info{
+                        position: relative;
+                        h5{
+                            font-family: LucidaGrande-Bold;
+                            font-size: 19.2/100rem;
+                            color: #000000;
+                        }
+                        p{
+                            font-family: LucidaGrande;
+                            font-size: 12/100rem;
+                            color: #000000;
+                            img{
+                                width: 22.4/100rem;
+                                height: 22.4/100rem;
+                                margin-right: 10/100rem;
+                                margin-bottom: 5/100rem;
+                            }
+                        }
+                    }
+                }
+            }           
+        }
+    }
+    .post{
+        text-align:center;
+        margin-top: 74/100rem;
+        position: relative;
+        .post-top{
+            text-align: center;
+            h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 30/100rem;
+                color: #000000;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+            }
+            img{
+                width: 430/100rem;
+                height: 40/100rem;
+                margin-top: -40/100rem;
+            }
+        }
+        .post-picture{
+            padding-top: 37/100rem;
+            img{
+                width: 505/100rem;
+                height: 873/100rem;
+            }
+            .left-arrow,.right-arrow{
+                width: 44/100rem;
+                height: 44/100rem;
+            }
+            .left-arrow{
+                margin-right: 37/100rem;
+            }
+            .right-arrow{
+                margin-left: 40/100rem;
+            }
+            // 轮播图
+            .out-container{
+                width: 750/100rem;
+                height: 873/100rem;
+                position: absolute;
+                top: 0;
+                .swiper-button-prev{
+                    background-image: url(../Beyonce-images/Beyonce-mobile-img/btn_left.png)
+                }
+                .swiper-button-next{
+                    background-image: url(../Beyonce-images/Beyonce-mobile-img/btn_right.png)
+                }
+                .swiper_btn{
+                    width: 44/100rem;
+                    height: 44/100rem;
+                    position: absolute;
+                    top:550/100rem;
+                    outline: none;
+                }
+            }
+            .in-container {
+                width: 465/100rem;
+                height: 830/100rem;
+                position: absolute;
+                top: 115/100rem;
+                left: 131/100rem;
+                overflow: hidden;
+                .swiper-slide{
+                    border-radius: 10/100rem;
+                    img{
+                        width: 465/100rem;
+                        height: 830/100rem;
+                        border-radius: 10/100rem;
+                    }
+                }
+            }
+            // 轮播图结束
+        }
+    }
+    .tickets{
+        .tick-top{
+             text-align: center;
+             margin-top: 80/100rem;
+            h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 30/100rem;
+                color: #000000;
+                text-align: center;
+                position: relative;
+                z-index: 1;
+            }
+            img{
+                width: 430/100rem;
+                height: 40/100rem;
+                margin-top: -40/100rem;
+            }
+        }
+        .tick-info{
+            margin: 0 auto;
+            margin-top: 40/100rem;
+            padding: 24/100rem;
+            width: 702/100rem;
+            height: 185/100rem;
+            background-color: #fff;
+            border: 2/100rem solid #000000;
+            p{
+                font-family: LucidaGrande-Bold;
+                font-size: 22/100rem;
+                color: #000000;
+                text-align: left;
+            }
+        }
+    }
+    .content-link{
+        background-color: #fff;
+        width: 100%;
+        height: 141/100rem;
+        margin-top: 100/100rem;
+        .logo{
+            float:left;
+            margin-left: 30/100rem;
+            margin-top: 55/100rem;
+            a{
+                font-family: LucidaGrande-Bold;
+                font-size: 20/100rem;
+                color: #000;
+            }
+        }
+        .download{
+            float: left;
+            margin-top: 55/100rem;
+            margin-left: 190/100rem;
+            margin-right: 40/100rem;
+            .title>h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 12/100rem;
+                color: #000;
+            }
+            .app-info{
+                margin-top: 8/100rem;
+                a>img{
+                    width: 28/100rem;
+                    height: 28/100rem;
+                }
+            }
+        }
+        .further{
+            float: left;
+            margin-top: 55/100rem;
+            .title>h4{
+                font-family: LucidaGrande-Bold;
+                font-size: 12/100rem;
+                margin-bottom: 8/100rem;
+                color: #000;
+            }
+            .fur-info{
+                a>img{
+                    width: 28/100rem;
+                    height: 28/100rem;
+                    margin-right:24/100rem;
+                }
+            }
+        }
+    }
+    .content-foot{
+        text-align: center;
+        span,a{
+            font-family: ArialNarrow;
+            font-size: 20/100rem;
+            color: #FFFFFF; 
+        }
+    }
+}
+.mod-policy{
+    h2,h3,h4,p{
+        margin-bottom: 50/100rem;
+    }
+    .policy-title{
+        text-align:center;
+        h2{
+            font-size: 35/100rem;
+            font-weight: 700;
+        }
+    }
+    .policy-body{
+        h3{
+            font-size: 23/100rem;
+            font-weight: 700;
+        }
+        h4{
+            font-size: 25/100rem;
+            font-weight: 700;
+        }
+        p{
+            font-size: 19/100rem;
+        }
+    }
+}
